@@ -8,4 +8,4 @@ services:
       - key: SUPABASE_URL
         value: https://hgbgxuqwabzuzwxndymz.supabase.co
       - key: SUPABASE_ANON_KEY
-        value: sb_publishable_nCf7BaDbwxMRHGhwuysx-g_rlEvZ83z
+        value: sb_secret_9_OO_uLNbhTt7KTATS92jw_ZNwQFUhT
