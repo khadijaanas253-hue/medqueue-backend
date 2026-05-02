@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: medqueue-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SUPABASE_URL
+        value: https://hgbgxuqwabzuzwxndymz.supabase.co
+      - key: SUPABASE_ANON_KEY
+        value: sb_publishable_nCf7BaDbwxMRHGhwuysx-g_rlEvZ83z
