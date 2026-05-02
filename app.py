@@ -20,7 +20,7 @@ CORS(app)  # Autorise les requêtes depuis React Native / Expo
 
 # ── Connexion Supabase ─────────────────────────────────────────
 SUPABASE_URL      = os.getenv("SUPABASE_URL",      "https://hgbgxuqwabzuzwxndymz.supabase.co")
-SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY", "sb_secret_9_OO_uLNbhTt7KTATS92jw_ZNwQFUhT")
+SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY", "")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_ANON_KEY)
 
